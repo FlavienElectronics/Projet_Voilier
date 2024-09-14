@@ -1,0 +1,14 @@
+Dependencies for Project 'ProjetVide', Target 'Simulation': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\Application\principal.c)(0x65EB0CF8)(-xc --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RB-I./RTE/_Simulation-IC:/ProgramData/keil/ARM/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/ProgramData/keil/ARM/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/principal.o -MMD)
+I (C:\ProgramData\keil\ARM\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x6697CA2A)
+I (RTE\_Simulation\RTE_Components.h)(0x66DF16DB)
+I (C:\ProgramData\keil\ARM\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664C2CE8)
+I (C:\ProgramData\keil\ARM\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x6697CA2A)
+F (RTE/Device/STM32F103RB/RTE_Device.h)(0x592825F6)()
+F (RTE/Device/STM32F103RB/startup_stm32f10x_md.s)(0x58257EBC)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/STM32F103RB-I./RTE/_Simulation-IC:/ProgramData/keil/ARM/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/ProgramData/keil/ARM/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 540" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_md.o)
+F (RTE/Device/STM32F103RB/system_stm32f10x.c)(0x58257EBC)(-xc --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103RB-I./RTE/_Simulation-IC:/ProgramData/keil/ARM/Pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/ProgramData/keil/ARM/Pack/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_-o ./objects/system_stm32f10x.o -MMD)
+I (C:\ProgramData\keil\ARM\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x6697CA2A)
+I (RTE\_Simulation\RTE_Components.h)(0x66DF16DB)
+I (C:\ProgramData\keil\ARM\Pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm3.h)(0x664C2CE8)
+I (C:\ProgramData\keil\ARM\Pack\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x6697CA2A)
