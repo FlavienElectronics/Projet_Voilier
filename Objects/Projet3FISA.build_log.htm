@@ -1,0 +1,122 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Flavien Electronics, NASA, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.39.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.21
+Assembler:       Armasm.exe V6.21
+Linker/Locator:  ArmLink.exe V6.21
+Library Manager: ArmAr.exe V6.21
+Hex Converter:   FromElf.exe V6.21
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DARMSTM.DLL V1.69.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.2.0.0
+Dialog DLL:      TARMSTM.DLL V1.67.1.0
+ 
+<h2>Project:</h2>
+C:\Users\Flavien\OneDrive - INSA Toulouse\4A_AE_SE\micro-controleur\_Zone de travail\Etape1\Etape1.uvprojx
+Project File Date:  09/14/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.21', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Reel'
+Application/principal.c(1): warning: In file included from...
+C:/Users/Flavien/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+C:/Users/Flavien/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+C:/Users/Flavien/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+Application/principal.c(49): warning: no previous prototype for function 'GPIO_port_Assignment' [-Wmissing-prototypes]
+   49 | int GPIO_port_Assignment(GPIO_TypeDef ** GPIO,int port)
+      |     ^
+Application/principal.c(49): note: declare 'static' if the function is not intended to be used outside of this translation unit
+   49 | int GPIO_port_Assignment(GPIO_TypeDef ** GPIO,int port)
+      | ^
+      | static 
+Application/principal.c(94): warning: mixing declarations and code is incompatible with standards before C99 [-Wdeclaration-after-statement]
+   94 |                 int DEBUG = ((pin-8)*4);
+      |                     ^
+Application/principal.c(94): warning: unused variable 'DEBUG' [-Wunused-variable]
+   94 |                 int DEBUG = ((pin-8)*4);
+      |                     ^~~~~
+Application/principal.c(85): warning: mixing declarations and code is incompatible with standards before C99 [-Wdeclaration-after-statement]
+   85 |         int mask =(~0);
+      |             ^
+Application/principal.c(80): warning: no previous prototype for function 'GPIO_PIN_Setup' [-Wmissing-prototypes]
+   80 | int GPIO_PIN_Setup(int port,int pin,int mode, int configuration)
+      |     ^
+Application/principal.c(80): note: declare 'static' if the function is not intended to be used outside of this translation unit
+   80 | int GPIO_PIN_Setup(int port,int pin,int mode, int configuration)
+      | ^
+      | static 
+Application/principal.c(112): warning: no previous prototype for function 'GPIO_PIN_Read' [-Wmissing-prototypes]
+  112 | int GPIO_PIN_Read(int port,int pin)
+      |     ^
+Application/principal.c(112): note: declare 'static' if the function is not intended to be used outside of this translation unit
+  112 | int GPIO_PIN_Read(int port,int pin)
+      | ^
+      | static 
+Application/principal.c(124): warning: no previous prototype for function 'GPIO_PIN_Set' [-Wmissing-prototypes]
+  124 | int GPIO_PIN_Set(int port,int pin)
+      |     ^
+Application/principal.c(124): note: declare 'static' if the function is not intended to be used outside of this translation unit
+  124 | int GPIO_PIN_Set(int port,int pin)
+      | ^
+      | static 
+Application/principal.c(137): warning: no previous prototype for function 'GPIO_PIN_Reset' [-Wmissing-prototypes]
+  137 | int GPIO_PIN_Reset(int port,int pin)
+      |     ^
+Application/principal.c(137): note: declare 'static' if the function is not intended to be used outside of this translation unit
+  137 | int GPIO_PIN_Reset(int port,int pin)
+      | ^
+      | static 
+11 warnings generated.
+compiling principal.c...
+linking...
+Program Size: Code=1352 RO-data=252 RW-data=0 ZI-data=1632  
+".\Objects\Projet3FISA.axf" - 0 Error(s), 11 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM::CMSIS@5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil::STM32F1xx_DFP@2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/STM32F103RB
+  ./RTE/_Reel
+  C:/Users/Flavien/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/Flavien/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@5.6.0
+
+   * Component: Keil::Device:Startup@1.0.0
+      Source file:   Device/Source/ARM/startup_stm32f10x_md.s
+      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+      Source file:   Device/Source/system_stm32f10x.c
+      Include file:  RTE_Driver/Config/RTE_Device.h
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
