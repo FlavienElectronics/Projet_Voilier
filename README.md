@@ -1,4 +1,4 @@
-# 🚀 STM32 : Projet VOILIER
+# ⛵ STM32 : Projet VOILIER
 
 Bienvenue dans le projet **VOILIER**
 
