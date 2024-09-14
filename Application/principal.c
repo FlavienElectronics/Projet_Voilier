@@ -146,6 +146,7 @@ int GPIO_PIN_Reset(int port,int pin)
 int main ( void )
 {
 	// Je suis dans ma branche
+	// Je vais merge dans le main
 	RCC->APB2ENR |= (0x01 << 2) | (0x01 << 3) | (0x01 << 4) ; // Clock starting (Output Enable)
 	
 	GPIOA->CRL &= (uint32_t)~(0xF<<4) ;
