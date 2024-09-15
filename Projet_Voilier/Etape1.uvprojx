@@ -385,11 +385,6 @@
           <GroupName>Source</GroupName>
           <Files>
             <File>
-              <FileName>principal.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Application\principal.c</FilePath>
-            </File>
-            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Source\main.c</FilePath>
@@ -804,11 +799,6 @@
         <Group>
           <GroupName>Source</GroupName>
           <Files>
-            <File>
-              <FileName>principal.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Application\principal.c</FilePath>
-            </File>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
