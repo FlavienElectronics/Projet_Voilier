@@ -14,6 +14,8 @@ int main(void)
 
     // Initialisation du bouton sur le GPIO PC13 (Floating input)
     GPIO_PIN_Init(PORT_C, PIN_13, INPUT, FLOATING_INPUT);
+	
+	 GPIO_PIN_Init(PORT_D, PIN_4, INPUT, ANALOG_MODE);
 
     while (1)
     {
