@@ -7,6 +7,7 @@ int main(void)
     TIMER_Init();
 	
 		//Ton commentaire est nul est inutile
+	//Si si il est très utile. Tu n'es pas gentil
 	
 		TIMER_Init();
 	
