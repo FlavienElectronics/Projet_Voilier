@@ -5,6 +5,8 @@
 int main(void)
 {
     TIMER_Init();
+	
+	//Commentaire de test
 
     // Initialisation de la pin GPIO de la LED (Output push-pull)
     GPIO_PIN_Init(PORT_A, PIN_5, OUTPUT_10MHZ, GENERAL_PURPOSE_OUTPUT_PUSH_PULL);
